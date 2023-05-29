@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 >Api Documentation</h1>
+    <p>Welcome to the API documentation for Chrn Predicator!</p>
+
+    <h2>Endpoints</h2>
+    <ul>
+        <li>
+            <strong>GET /Api/query/q=</strong>'Bad World need Bad Person'
+            <p>Retrieve a list of Churn Predication.</p>
+            <h4> Output </h4>
+            <p>In Json Format</p>
+            <p class="text-primary">	
+                {[label	"POSITIVE",<br>
+                score	0.999870777130127]}</p>
+        </li>
+        <!-- Add more endpoints as needed -->
+    </ul>
+{% endblock %}
